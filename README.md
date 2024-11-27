@@ -6,6 +6,9 @@
 3. Split features to improve linear separation.
 4. Fit logistic regression on distorted dataset to predict confidence from the features.
 
+![alt text](https://github.com/rmagesh148/xood/blob/main/min_max_2.jpg?raw=true)
+
+Distribution of maximum values before an activation layer inside ResNet34. Green represents CIFAR-10 (ID) and  Red represents LSUN-Resize(OOD) (left figure) or SVHN(OOD) (right figure). Note how in-distribution data lies in a single mode, while out-of-distribution data can be on either side.
 
 ### Project Structure
 The confidence algorithm is in confidenciator.py.
